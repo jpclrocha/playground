@@ -1,0 +1,20 @@
+{
+	"name": "api-pweb",
+	"version": "1.0.0",
+	"description": "desenvolvimento de uma api em node para as aulas de pweb",
+	"license": "MIT",
+	"author": "Joao Laranjeira",
+	"type": "module",
+	"main": "src/server.js",
+	"scripts": {
+		"start": "node src/server.js",
+		"dev": "node --watch src/server.js",
+		"test": "jest"
+	},
+	"dependencies": {
+		"express": "^5.2.1"
+	},
+	"devDependencies": {
+		"jest": "^30.2.0"
+	}
+}
