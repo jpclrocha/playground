@@ -1,0 +1,18 @@
+{
+	"name": "20260303001_express",
+	"version": "1.0.0",
+	"description": "",
+	"license": "MIT",
+	"author": "Joao Laranjeira",
+	"type": "module",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node src/server.js",
+		"dev": "node --watch src/server.js",
+		"test": "jest"
+	},
+	"dependencies": {
+		"express": "^5.2.1"
+	},
+	"devDependencies": {}
+}
